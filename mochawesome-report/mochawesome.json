@@ -1,0 +1,138 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-11T00:15:11.641Z",
+    "end": "2021-11-11T00:15:11.678Z",
+    "duration": 37,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b0ac3db0-4263-4d04-b809-d8d75869e6ac",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "76fb9b14-958d-4795-abde-43730407943e",
+          "title": "Calculate",
+          "fullFile": "C:\\Users\\home\\Documents\\Mis_Documentos\\Ciber\\Puesta en produccion segura\\github\\FizzBuzz\\test\\index_test.js",
+          "file": "\\test\\index_test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "67bf7194-dea1-4543-8d9a-89f929a3c18c",
+              "title": ".fizzbuzz",
+              "fullFile": "C:\\Users\\home\\Documents\\Mis_Documentos\\Ciber\\Puesta en produccion segura\\github\\FizzBuzz\\test\\index_test.js",
+              "file": "\\test\\index_test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [],
+              "suites": [
+                {
+                  "uuid": "7c4ebe18-9f23-48d6-835e-849b23b4b627",
+                  "title": "it goes slow",
+                  "fullFile": "C:\\Users\\home\\Documents\\Mis_Documentos\\Ciber\\Puesta en produccion segura\\github\\FizzBuzz\\test\\index_test.js",
+                  "file": "\\test\\index_test.js",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "This test return the numbers multiple of 3, multiple of 5 and multiple of both",
+                      "fullTitle": "Calculate .fizzbuzz it goes slow This test return the numbers multiple of 3, multiple of 5 and multiple of both",
+                      "timedOut": false,
+                      "duration": 27,
+                      "state": "passed",
+                      "speed": "fast",
+                      "pass": true,
+                      "fail": false,
+                      "pending": false,
+                      "context": null,
+                      "code": "/* Hay una variable declarada var x; */\n/* Hay una variable llamada x. */\n/* DECLARADA Y INICIALIZADA */\n/* var x = 0 ; */\nconst inputNumber = 1;\n//const expectedResult = 100;\nconst result = Calculate.fizzbuzz(inputNumber);\n/*I apply mocha chai first lesson 11.11.2021 -= anb100=-  */\nassert.equal(result, fizzbuzz(inputNumber));",
+                      "err": {},
+                      "uuid": "3ab28471-0aea-4c10-9821-31ea95742d0a",
+                      "parentUUID": "7c4ebe18-9f23-48d6-835e-849b23b4b627",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [
+                    "3ab28471-0aea-4c10-9821-31ea95742d0a"
+                  ],
+                  "failures": [],
+                  "pending": [],
+                  "skipped": [],
+                  "duration": 27,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                }
+              ],
+              "passes": [],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.1.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.1"
+    }
+  }
+}
